@@ -13,13 +13,17 @@ The resources that I will be using to help me on the journey will be cited below
 <p>From what I understood, the only thing html can do by itself is organize text with various fonts. In order for me to use colors extensively and design the webpage, I would need to use CSS. According to link(3) there's three different ways I can use CSS with HTML: inline, internal, and external.</p>
 <p>Now I bring in JavaScript. I've heard about JavaScript a lot, but I never quite understood how it was used with web development. In link(4), my take away is that JavaScript is create the behavior or the webpage on the client side. To use JavaScript with the program, I just use the 'script' tag.</p>
 
-
+##### DAY 2
+<p>Trying to understand the purpose of the title tag. According to the image in the link(5). Every tab in a browser has a title. Before I applied the title tag, my tab only had my web address on it. After applying a title, it says 'Jerry Chen: The Journey'.</p>
+<p>Learning how to add photos using link(6). It appears that common practice is creating a subdirectory called 'images' and adding all the photos into that directory. Then I use HTML to pull the photo from the folder and add attributes to it.</p>
 
 ### Links
 1. https://www.w3schools.com/tags/tag_doctype.asp
 2. https://www.w3schools.com/html/html_paragraphs.asp
 3. https://www.w3schools.com/html/html_css.asp
 4. http://study.com/academy/lesson/what-is-javascript-function-uses-quiz.html
+5. https://moz.com/learn/seo/title-tag
+6. https://www.w3schools.com/html/html_images.asp
 
 
 
