@@ -1,13 +1,23 @@
 body {
-	background-color: #98A89E;
+	background-color: #233233;
+	background-size: 35px 35px;
+	background-image: linear-gradient(to right, #515B5E 1px, transparent 1px), linear-gradient(to bottom, #515B5E 1px, transparent 1px);
 }
 
 h1 {
-	color: black;
+	color: #BAC0AC;
 	font-family: "Amatic SC";
+	margin: 30px;
+	font-size: 65px;
 }
 
 p {
-	color: black;
+	color: #CAF200;
 	font-family: "Amatic SC";
+	font-size: 25px;
+	margin: 30px;
+}
+
+a {
+	color: #BAC0AC;
 }
