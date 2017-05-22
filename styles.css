@@ -15,7 +15,9 @@ p {
 	color: #CAF200;
 	font-family: "Amatic SC";
 	font-size: 25px;
-	margin: 30px;
+	margin: 3px;
+	margin-left: 30px;
+	margin-right: 30px;
 }
 
 a {
