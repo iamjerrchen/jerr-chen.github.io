@@ -51,7 +51,9 @@ Link(10) has a ton of google fonts that web developers can import to design thei
   
 According to stack overflow in link(11), there is another way to import the font with the @import method, but in this case, it must be the first thing in the file.
 
+##### Day 6
 
+Learning how to interact html with javascript code. I assume that it's similar to css in the sense that it can be external or internal since link(12) shows an internal method using the script tag then using an attribute specifying that it's the language JavaScript. According to the link, buttons have an attribute called onClick that has the value of a function. If I remember correctly this is similar to XML on Android Studio. The attribute makes the button call the specified JavaScript Function when it is clicked. My assumption was correct, the link then goes on to explain how to import an extern JavaScript file. The syntax is the same as the internal method, but there's an extra attribute called src which has the value of the extern file's path or web address.
 
 
 
@@ -67,6 +69,7 @@ According to stack overflow in link(11), there is another way to import the font
 9. https://color.adobe.com/create/color-wheel/
 10. https://fonts.google.com/
 11. http://stackoverflow.com/questions/14676613/how-to-import-google-web-font-in-css-file
+12. http://www.dummies.com/web-design-development/javascript/javascript-and-html/
 
 
 
