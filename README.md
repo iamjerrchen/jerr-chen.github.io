@@ -35,6 +35,14 @@ CSS is used to modify the text of HTML to become visually appealing. According t
 
 It's generally good practice to separate HTML and CSS code into two separate folders even though CSS can be incorporated into the head element of HTML. The "link" element is used to associated the two files together. Similar to a #include in C and C++ but different. It must be included in the head element that requires the following attributes: href, type, rel. href is the path to the CSS file. type is the type of document, which is text/css in this case. rel is the relationship between the two, in this case it's a "stylesheet".
 
+##### Day 4
+
+Learning about colors for CSS. There's 3 different ways to specify the color values: using named colors (147 colors: link(8)), using rgb values (each ranging from 0-256: link(9)), or hex values, which are the same as rgb values but different representation. to represent rgb use rgb(red, green, blue).
+
+Aside from these three representations, there's also HSL (Hue, Saturation, and Lightness). Hue is the color wheel from 0 to 360. Saturation is the amount of gray in a color from 0% to 100% where it represents the shade of gray and 100% is full saturation. Lightness is the amount of white in a color. Like saturation, it ranges from 0% to 100%, but 0% is black, 100% is white, and %50 is normal. To represent hsl we use hsl(hue, saturation, lightness).
+
+
+
 
 ### Links
 1. https://www.w3schools.com/tags/tag_doctype.asp
@@ -44,6 +52,12 @@ It's generally good practice to separate HTML and CSS code into two separate fol
 5. https://moz.com/learn/seo/title-tag
 6. https://www.w3schools.com/html/html_images.asp
 7. https://www.codecademy.com/learn/learn-html-css
+8. http://www.colors.commutercreative.com/grid/
+9. https://color.adobe.com/create/color-wheel/
+
+
+
+
 
 
 
