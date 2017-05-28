@@ -41,6 +41,17 @@ Learning about colors for CSS. There's 3 different ways to specify the color val
 
 Aside from these three representations, there's also HSL (Hue, Saturation, and Lightness). Hue is the color wheel from 0 to 360. Saturation is the amount of gray in a color from 0% to 100% where it represents the shade of gray and 100% is full saturation. Lightness is the amount of white in a color. Like saturation, it ranges from 0% to 100%, but 0% is black, 100% is white, and %50 is normal. To represent hsl we use hsl(hue, saturation, lightness).
 
+##### Day 5
+
+Colors have another property in addition to the rgb intensities called an alpha channel. The alpha channel is used for transparency. The lower the value the more transparent, the greater the value more opaque. To specify this value in addition to rgb, you use rgba(). The alpha channel ranges from 0 to 1 for all real numbers. According to codeacademy, we can declare both rgb and rgba in case the older browser doesn't support the alpha channel. The fallback color should precede rgba color. hsl function also supports the alpha opacity channel.
+
+After colors, I learned about fonts. serif and sans-serif are two types of fonts. Serif has extra strokes on the ends of the characters whereas sans-serif don't, which creates a cleaner look. When selecting the font-family property, the developer can specify multiple fonts separated by commas. The left most font is used and each one to the right are fallbacks if the browser doesn't support the font.
+
+Link(10) has a ton of google fonts that web developers can import to design their websites. To import the font, you will need to use the link element where the href value is equal to: "https://fonts.googleapis.com/css?family=Barrio" where Barrio is replaced with the font you want, and spaces are replaced with '+'. The type value is "text/css" and the rel value is "stylesheet". The element should be placed in the head element. I experimented with the positioning of the element with respect to the link element containing the style sheet that uses the font, and it appears that it doesn't matter if the font is included before or after the css file unlike C or C++.
+  
+According to stack overflow in link(11), there is another way to import the font with the @import method, but in this case, it must be the first thing in the file.
+
+
 
 
 
@@ -54,7 +65,8 @@ Aside from these three representations, there's also HSL (Hue, Saturation, and L
 7. https://www.codecademy.com/learn/learn-html-css
 8. http://www.colors.commutercreative.com/grid/
 9. https://color.adobe.com/create/color-wheel/
-
+10. https://fonts.google.com/
+11. http://stackoverflow.com/questions/14676613/how-to-import-google-web-font-in-css-file
 
 
 
