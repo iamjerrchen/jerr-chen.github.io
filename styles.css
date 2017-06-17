@@ -1,20 +1,16 @@
 body {
-	background-color: #BAC0AC;
+	background-color: #233233;
 }
 
 h1 {
-	color: #233233;
+	color: #BAC0AC;
 	font-family: "Amatic SC";
 	margin: 30px;
 	font-size: 65px;
 }
 
-div.Construction_Message {
-	margin: 30px;
-}
-
 p {
-	color: #233233;
+	color: #CAF200;
 	font-size: 25px;
 	margin: 3px;
 	margin-left: 30px;
