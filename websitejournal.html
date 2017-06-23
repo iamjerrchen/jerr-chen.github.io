@@ -9,6 +9,11 @@
 
 	<body>
 		
+    <ul class="NavBar">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="websitejournal.html">Web Journal</a></li>
+    </ul>
+
 		<h1 class="PageHeadTitle">My Journey To Creating This Website</h1>
 
 		<p class="PageDescription">This journal comprises of the activities for each day I worked on the website. The entries include: what I learned, ideas for the website, and my open thoughts.<br/>
@@ -91,7 +96,13 @@
 
 		<p class="JournalEntry">I added a simple Navigation Bar by following the tutorial for link(17). This guy did a very good job at explaining/demonstrating the process. For the time being I will keep it how it is to observe the visual affects it has on the website. When I get the change later I will be changing the design and make it more personalized.
 
-		</p>
+		There appears to be an unintentional affect. There's some sort of margin around the Navigation Bar. When I remove all other styling from the css file the margin is still around the Bar. I'm not quite sure where this problem is coming from, but I will need to investigate or ask for help from someone.
+
+		I decided to set margins to 0px and it appears to have an affect to the Navigation Bar. It partially closed the gap between the top of the webpage and the top of the Bar. Perhaps there are uninitialized values that I didn't account for, which doesn't make sense. 0px should be the default value if the margin isn't specified.
+
+		It seems that I fixed the problem. Here's what I have added. left: 0px and top: 0px. It seems that these two properties don't have the value of 0px, which makes sense why the Navigation Bar is offset from the sides and top of the screen. I tested this out when I added the two properties: position and width. I added the position so I can keep it fixed to a specific location as the rest of the screen scrolls. I added width to be 100% because adding position caused the Navigation Bar to shrink to only the necessary size around the two links: Home and Web Journal. Now I have an ideal simple Navigation Bar. Also the margin 0px that I added earlier seems to be required. Without it the top of the Bar still offsets slightly. This seems strange since I had the top property set to 0px.
+
+		I noticed that adding the position to be fixed caused the initial content to hide behind the navigation bar. I searched for a solution and came across link(18). I ended up adding a padding-top: 40px. This pushed the content down. This is an interesting solution, now the bottom of the Navigation Bar acts like the top of the body.</p>
 
 		<h3>Links</h3>
 
@@ -113,6 +124,7 @@
 			<li>https://stackoverflow.com/questions/2336302/single-huge-css-file-vs-multiple-smaller-specific-css-files</li>
 			<li>https://www.quora.com/Does-writing-a-separate-style-sheet-for-each-HTML-document-decrease-your-websites-efficiency</li> <!-- 16 -->
 			<li>https://www.youtube.com/watch?v=gQgqJG8ld7M</li>
+			<li>https://stackoverflow.com/questions/10865237/website-header-hiding-behind-content-when-position-is-fixed</li>
 		</ol>
 	</body>
 </html>
