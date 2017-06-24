@@ -9,10 +9,22 @@
 
 	<body>
 		
-    <ul class="NavBar">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="websitejournal.html">Web Journal</a></li>
-    </ul>
+		<div class="NavigationBar">
+	    <ul class="NavigationItems">
+	      <li><a href="index.html">
+	      	<ul class="NavigationIcon">
+	      		<li><img src="/images/home_icon" alt="Home Icon" style = "width:20px; height:20px;"/></li>
+	      		<li>Home</li>
+      		</ul>
+	      </a></li>
+	      <li><a href="websitejournal.html">
+	      	<ul class="NavigationIcon">
+	      		<li><img src="/images/open_journal_icon" alt="Web Journal Icon" style = "width:20px; height:20px;"/></li>
+			      <li>Web Journal</li>
+		      </ul>
+	      </a></li>
+	    </ul>
+    </div>
 
 		<h1 class="PageHeadTitle">My Journey To Creating This Website</h1>
 
@@ -104,6 +116,15 @@
 
 		I noticed that adding the position to be fixed caused the initial content to hide behind the navigation bar. I searched for a solution and came across link(18). I ended up adding a padding-top: 40px. This pushed the content down. This is an interesting solution, now the bottom of the Navigation Bar acts like the top of the body.</p>
 
+		<h3>Day 9 - June 24, 2017</h3>
+
+		<p class="JournalEntry">Today I decided to make the modifications to the Navigation Bar, Nav Bar for short. I will be adding some icons to the bar to make it a little more fancy. I found some icons at the link(19). There's all sorts of icons that you can use. I'll be picking simple ones so that it's not too overwhelming to the viewers. I will also be adding on to the implementation of the Nav Bar by building onto what the YouTube video suggested.
+
+		To start off, I need to change the implementation of the Nav Bar because using a list is a bit restrictive. With a list, All my items must be clumped together, I can't place one item to the far left and all the other items to the center. To fix this problem, I created a container class outside of the list. The container becomes my Nav Bar and the list becomes an item. In the future, I will be able to add a unique icon that represents my website in addition to the navigation links and any other items I want to add for ease of access. By adding this container, I needed to make some modifications to the positioning in the style file. Instead of a fixed position for the list, I changed it to absolute. According to link(20), this based the positioning of the NavBar relative to its first positioned ancestor element. When I add properties such as bottom, left, top, right. It will stay contained within the container element and not the body element.
+
+		</p>
+
+
 		<h3>Links</h3>
 
 		<ol>
@@ -125,6 +146,9 @@
 			<li>https://www.quora.com/Does-writing-a-separate-style-sheet-for-each-HTML-document-decrease-your-websites-efficiency</li> <!-- 16 -->
 			<li>https://www.youtube.com/watch?v=gQgqJG8ld7M</li>
 			<li>https://stackoverflow.com/questions/10865237/website-header-hiding-behind-content-when-position-is-fixed</li>
+			<li>http://www.iconarchive.com/</li> <!-- Found some nice icons -->
+			<li>https://www.w3schools.com/cssref/pr_class_position.asp</li><!-- Position property -->
+
 		</ol>
 	</body>
 </html>

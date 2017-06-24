@@ -1,7 +1,7 @@
 body {
 	/*background-color: #BAC0AC;*/
 	background-color: #233233;
-	padding-top: 40px;
+	padding-top: 5%;
 }
 
 h1 {
@@ -11,30 +11,42 @@ h1 {
 	/*font-size: 65px;*/
 }
 
-ul.NavBar {
+div.NavigationBar {
+	width: 100%;
+	height: 10%;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	background-color: black;
+}
+
+ul.NavigationIcon {
+	list-style: none;
+	margin: 0px;
+}
+
+ul.NavigationItems {
 	margin: 0px;
 	list-style: none;
-	background-color: #595959;
 	color: #ffffff;
 	text-align: center;
 	padding: 20px 0px 20px 0px; /*top, right, bottom, left*/
-	position: fixed;
-	width: 100%;
-	left: 0px;
-	top: 0px;
+	position: absolute;
+	left: ;
+	/*top: 0px;*/
 }
 
-ul.NavBar > li { /* > symbolizes an ally: used for specific combinations */
+ul.NavigationItems > li { /* > symbolizes an ally: used for specific combinations */
 	display: inline-block;
 	padding: 0px 25px 0px 25px;
 }
 
-ul.NavBar > li > a {
+ul.NavigationItems > li > a {
 	color: #ffffff;
 	text-decoration: none;
 }
 
-ul.NavBar > li > a:hover {
+ul.NavigationItems > li > a:hover {
 	color: #c1c1c1;
 }
 
