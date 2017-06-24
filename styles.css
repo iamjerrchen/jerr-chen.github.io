@@ -17,7 +17,7 @@ div.NavigationBar {
 	position: fixed;
 	left: 0px;
 	top: 0px;
-	background-color: black;
+	background-color: whitesmoke;
 }
 
 ul.NavigationIcon {
@@ -42,12 +42,12 @@ ul.NavigationItems > li { /* > symbolizes an ally: used for specific combination
 }
 
 ul.NavigationItems > li > a {
-	color: #ffffff;
+	/*color: #ffffff;*/
 	text-decoration: none;
 }
 
 ul.NavigationItems > li > a:hover {
-	color: #c1c1c1;
+	/*color: #c1c1c1;*/
 }
 
 h3 {
