@@ -9,22 +9,13 @@
 
 	<body>
 		
-		<div class="NavigationBar">
-	    <ul class="NavigationItems">
-	      <li><a href="index.html">
-	      	<ul class="NavigationIcon">
-	      		<li><img src="/images/home_icon.png" alt="Home Icon" style = "width:30px; height:30px;"/></li>
-	      		<li>Home</li>
-      		</ul>
-	      </a></li>
-	      <li><a href="websitejournal.html">
-	      	<ul class="NavigationIcon">
-	      		<li><img src="/images/open_journal_icon.png" alt="Web Journal Icon" style = "width:30px; height:30px;"/></li>
-			      <li>Web Journal</li>
-		      </ul>
-	      </a></li>
-	    </ul>
-    </div>
+    <!-- <div class="NavigationBar">  -->
+    <!-- Change the design of this NavBar in the future -->
+      <ul class="NavigationBar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="websitejournal.html">Web Journal</a></li>
+      </ul>
+    <!-- </div> -->
 
 		<h1 class="PageHeadTitle">My Journey To Creating This Website</h1>
 
@@ -122,7 +113,11 @@
 
 		To start off, I need to change the implementation of the Nav Bar because using a list is a bit restrictive. With a list, All my items must be clumped together, I can't place one item to the far left and all the other items to the center. To fix this problem, I created a container class outside of the list. The container becomes my Nav Bar and the list becomes an item. In the future, I will be able to add a unique icon that represents my website in addition to the navigation links and any other items I want to add for ease of access. By adding this container, I needed to make some modifications to the positioning in the style file. Instead of a fixed position for the list, I changed it to absolute. According to link(20), this based the positioning of the NavBar relative to its first positioned ancestor element. When I add properties such as bottom, left, top, right. It will stay contained within the container element and not the body element.
 
-		</p>
+		I accidentally zoomed in on a page and the items started moving out of place. I will have to fixed this problem a different time... Turns out the problem was because I used percentage values for the height of the Nav Bar and the padding-top for the body. When you zoom in, the size of the elements also change to maintain the percentage values.
+
+		The icon idea was scrapped because it complicates the design. For user experience, icons are also less descriptive than words. Using words are makes it easier to navigate the website. I am now back to square one figuring out how to position the items. I might follow the design of StackOverflow's Nav Bar.
+
+		It appears that I went full circle, I decided to remove the container all together.</p>
 
 
 		<h3>Links</h3>

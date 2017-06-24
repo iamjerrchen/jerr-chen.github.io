@@ -1,7 +1,9 @@
 body {
 	/*background-color: #BAC0AC;*/
 	background-color: #233233;
-	padding-top: 5%;
+	padding-top: 80px;
+	padding-left: 150px;
+	padding-right: 150px;
 }
 
 h1 {
@@ -11,43 +13,43 @@ h1 {
 	/*font-size: 65px;*/
 }
 
-div.NavigationBar {
-	width: 100%;
-	height: 10%;
+/*div.NavigationBar {
 	position: fixed;
+	width: 100%;
+	height: 80px;
 	left: 0px;
 	top: 0px;
-	background-color: whitesmoke;
-}
+	background-color: black;
+}*/
 
-ul.NavigationIcon {
-	list-style: none;
-	margin: 0px;
-}
-
-ul.NavigationItems {
-	margin: 0px;
-	list-style: none;
+ul.NavigationBar {
+	/*position: absolute;*/
+	width: 100%;
+	background-color: black; 
+	position: fixed; /* Keeps the bar stationary even if the page scrolls */
+	list-style: none; /* Removes the bullet points */
 	color: #ffffff;
 	text-align: center;
 	padding: 20px 0px 20px 0px; /*top, right, bottom, left*/
-	position: absolute;
-	left: ;
-	/*top: 0px;*/
+	left: 0px;
+	top: 0px;
+	margin: auto;
+	/*align-items: center;*/
+	/*align-self: center;*/
 }
 
-ul.NavigationItems > li { /* > symbolizes an ally: used for specific combinations */
-	display: inline-block;
+ul.NavigationBar > li { /* > symbolizes an ally: used for specific combinations */
+	display: inline-block; /* Sets the list items horizontal */
 	padding: 0px 25px 0px 25px;
 }
 
-ul.NavigationItems > li > a {
-	/*color: #ffffff;*/
+ul.NavigationBar > li > a {
+	color: #ffffff;
 	text-decoration: none;
 }
 
-ul.NavigationItems > li > a:hover {
-	/*color: #c1c1c1;*/
+ul.NavigationBar > li > a:hover{
+	color: #c1c1c1;
 }
 
 h3 {
