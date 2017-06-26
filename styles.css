@@ -4,6 +4,7 @@ body {
 	padding-top: 80px;
 	padding-left: 150px;
 	padding-right: 150px;
+	padding-bottom: 80px;
 }
 
 h1 {
@@ -85,4 +86,18 @@ li {
 	color: #BAC0AC;
 }
 
-/* Website Journal CSS */
+div.Footer {
+	background-color: black;
+	position: fixed;
+	width: 100%;
+	height: 64px;
+	bottom: 0px;
+	left: 0px;
+	text-align: center;
+}
+
+a.IconLinks {
+	top: 16px;
+}
+
+/* Website CSS */
