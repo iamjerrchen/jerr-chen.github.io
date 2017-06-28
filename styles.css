@@ -2,8 +2,8 @@ body {
 	/*background-color: #BAC0AC;*/
 	background-color: #233233;
 	padding-top: 80px;
-	padding-left: 150px;
-	padding-right: 150px;
+/*	padding-left: 150px;
+	padding-right: 150px;*/
 	padding-bottom: 80px;
 }
 
@@ -23,6 +23,7 @@ h1 {
 	background-color: black;
 }*/
 
+/* Header */
 ul.NavigationBar {
 	/*position: absolute;*/
 	width: 100%;
@@ -53,6 +54,46 @@ ul.NavigationBar > li > a:hover{
 	color: #c1c1c1;
 }
 
+/*--------Footer Start--------*/
+/*footer {
+	display: block;
+	padding: 20px 0px 20px 0px;
+	background-color: black;
+	width: 100%;
+	text-align: center;
+	bottom: 0px;
+	left: 0px;
+	margin: 0px;
+}*/
+
+ul.Footer {
+	width: 100%;
+	display: block;
+	background-color: black; 
+	position: fixed; /* Keeps the bar stationary even if the page scrolls */
+	list-style: none; /* Removes the bullet points */
+	color: #ffffff;
+	text-align: center;
+	padding: 20px 0px 20px 0px; /*top, right, bottom, left*/
+	left: 0px;
+	bottom: 0px;
+	margin: auto;
+}
+
+ul.Footer > li {
+	display: inline-block;
+	padding: 0px 25px 0px 25px;
+}
+
+ul.Footer > li > a {
+	color: #ffffff;
+	text-decoration: none
+}
+
+/*--------Footer End--------*/
+
+
+/* Content */
 h3 {
 	/*color: #233233;*/
 	color: #BAC0AC;
@@ -86,7 +127,9 @@ li {
 	color: #BAC0AC;
 }
 
-div.Footer {
+
+
+/*div.Footer {
 	background-color: black;
 	position: fixed;
 	width: 100%;
@@ -94,7 +137,7 @@ div.Footer {
 	bottom: 0px;
 	left: 0px;
 	text-align: center;
-}
+}*/
 
 a.IconLinks {
 	top: 16px;
