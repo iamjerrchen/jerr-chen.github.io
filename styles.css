@@ -1,10 +1,10 @@
 body {
 	/*background-color: #BAC0AC;*/
 	background-color: #233233;
-	padding-top: 80px;
+	/*padding-top: 80px;*/
 /*	padding-left: 150px;
 	padding-right: 150px;*/
-	padding-bottom: 80px;
+	/*padding-bottom: 80px;*/
 }
 
 h1 {
@@ -74,7 +74,7 @@ ul.Footer {
 	list-style: none; /* Removes the bullet points */
 	color: #ffffff;
 	text-align: center;
-	padding: 20px 0px 20px 0px; /*top, right, bottom, left*/
+	padding: 12px 0px 12px 0px; /*top, right, bottom, left*/
 	left: 0px;
 	bottom: 0px;
 	margin: auto;
@@ -85,9 +85,10 @@ ul.Footer > li {
 	padding: 0px 25px 0px 25px;
 }
 
-ul.Footer > li > a {
+ul.Footer > li > a.IconLinks {
 	color: #ffffff;
-	text-decoration: none
+	text-decoration: none;
+	margin:0px;
 }
 
 /*--------Footer End--------*/
@@ -98,15 +99,6 @@ h3 {
 	/*color: #233233;*/
 	color: #BAC0AC;
 	margin: 30px;
-}
-
-div.Construction_Message {
-	margin: 30px;
-}
-
-p.Warning {
-	color: red;
-	font-size: 25px;
 }
 
 p {
@@ -128,6 +120,21 @@ li {
 }
 
 
+div.MainContent {
+	margin-top: 80px;
+	margin-bottom: 80px;
+	/*text-align: center;*/
+}
+
+a {
+	text-decoration: none;
+}
+
+button {
+	margin: 3px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
 
 /*div.Footer {
 	background-color: black;
@@ -138,9 +145,5 @@ li {
 	left: 0px;
 	text-align: center;
 }*/
-
-a.IconLinks {
-	top: 16px;
-}
 
 /* Website CSS */
