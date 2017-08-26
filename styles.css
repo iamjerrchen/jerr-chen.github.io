@@ -1,15 +1,17 @@
 body {
 	/*background-color: #BAC0AC;*/
-	background-color: #233233;
+	/*background-color: #233233;*/
+	background-color: white;
 	/*padding-top: 80px;*/
-/*	padding-left: 150px;
-	padding-right: 150px;*/
+	/*padding-left: 350px;*/
+	/*padding-right: 350px;*/
 	/*padding-bottom: 80px;*/
 }
 
 h1 {
 	/*color: #233233;*/
-	color: #BAC0AC;
+	/*color: #BAC0AC;*/
+	color: black;
 	margin: 30px;
 	/*font-size: 65px;*/
 }
@@ -32,6 +34,7 @@ ul.NavigationBar {
 	list-style: none; /* Removes the bullet points */
 	color: #ffffff;
 	text-align: center;
+	float: top;
 	padding: 20px 0px 20px 0px; /*top, right, bottom, left*/
 	left: 0px;
 	top: 0px;
@@ -97,14 +100,17 @@ ul.Footer > li > a.IconLinks {
 /* Content */
 h3 {
 	/*color: #233233;*/
-	color: #BAC0AC;
+	/*color: #BAC0AC;*/
+	color: black;
 	margin: 30px;
 }
 
 p {
 	/*color: #233233;*/
-	color: #CAF200;
+	/*color: #CAF200;*/
+	color: black;
 	/*font-size: 25px;*/
+	/*width: 50%;*/
 	margin: 3px;
 	margin-left: 30px;
 	margin-right: 30px;
@@ -123,7 +129,8 @@ li {
 div.MainContent {
 	margin-top: 80px;
 	margin-bottom: 80px;
-	/*text-align: center;*/
+	padding-right: 350px;
+	padding-left: 350px;
 }
 
 a {
