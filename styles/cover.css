@@ -30,12 +30,14 @@ body {
   background-color: #333;
 }
 
-body {
-  background-image: url("http://yetimountainhome.com/images/everest-ymh-trek.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.bg-color {
+    background: linear-gradient(135deg, #141e30, #243b55);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+body {
   display: -ms-flexbox;
   display: -webkit-box;
   display: flex;
