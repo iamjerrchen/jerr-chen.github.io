@@ -27,14 +27,12 @@ a:hover {
 html,
 body {
   height: 100%;
-  background: linear-gradient(135deg, #141e30, #243b55);
-}
 
-.bg-dec {
-    background-image: url("./../images/smokey_mt.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  /* Image background decoration */
+  background-image: url("./../images/smokey_mt.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 body {
