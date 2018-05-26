@@ -29,7 +29,7 @@ body {
   height: 100%;
 
   /* Image background decoration */
-  background-image: url("./../images/smokey_mt.jpg");
+  /* background-image: url("./../images/smokey_mt_back.jpg"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -44,6 +44,10 @@ body {
   color: #fff;
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+
+.dark-dusk-grad {
+    background: linear-gradient(135deg, #ffd89b, #19547b);
 }
 
 .cover-container {
