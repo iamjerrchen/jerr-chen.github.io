@@ -8,8 +8,23 @@ body {
   color: #5a5a5a;
 }
 
-.blue-grad {
-    background: linear-gradient(135deg, #141e30, #243b55);
+.dusk-grad {
+    background: linear-gradient(#19547b, #ffd89b);
+}
+
+.dark-blue-grad {
+    background: #19547b;
+}
+
+.black-bg {
+    background: #000000;
+}
+
+.wrap {
+    max-height: 168px;
+    overflow: hidden;
+    display: inline-block;
+    max-width: 90%;
 }
 
 /* CUSTOMIZE THE CAROUSEL
