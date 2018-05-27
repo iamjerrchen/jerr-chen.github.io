@@ -23,6 +23,10 @@ body {
     background: #19547b;
 }
 
+.off-white {
+    background-color: #efefef;
+}
+
 .text-border {
     color: white;
     text-shadow:
