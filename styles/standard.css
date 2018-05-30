@@ -1,0 +1,42 @@
+/* Modifications deviating from bootstrap templates reside here */
+.cover-bg {
+    background-image: url("./../images/galaxy_cover.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dusk-grad {
+    background: linear-gradient(#19547b, #ffd89b);
+}
+
+.dark-blue {
+    background: #19547b;
+}
+
+.off-white {
+    background-color: #efefef;
+}
+
+.black-text {
+    color: black;
+    font-weight: 400;
+}
+
+.text-border {
+    color: white;
+    text-shadow:
+        -1px -1px 0 #000,  
+        2px -2px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+/* Allocated fixed space for text */
+.card-text-fix {
+    height: 168px;
+    max-height: 168px;
+    overflow: hidden;
+    display: inline-block;
+    max-width: 90%;
+}
