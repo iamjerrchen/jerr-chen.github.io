@@ -1,5 +1,12 @@
-body {
+/* GLOBAL STYLES
+-------------------------------------------------- */
+footer {
+    padding-top: 3rem;
     padding-bottom: 3rem;
+}
+
+footer p {
+    margin-bottom: .25rem;
 }
 
 /* Modifications deviating from bootstrap templates reside here */
@@ -11,7 +18,8 @@ body {
 }
 
 .dusk-grad {
-    background: linear-gradient(#19547b, #ffd89b);
+    /* background: linear-gradient(#084168, #ffd89b); */
+    background-color: #d9c296;    
 }
 
 .dark-blue {
@@ -31,7 +39,7 @@ body {
     color: white;
     text-shadow:
         -1px -1px 0 #000,  
-        2px -2px 0 #000,
+        1px -1px 0 #000,
         -1px 1px 0 #000,
         1px 1px 0 #000;
 }
@@ -43,4 +51,24 @@ body {
     overflow: hidden;
     display: inline-block;
     max-width: 90%;
+}
+
+/* Album
+------------------------- */
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+    margin: 4rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
 }
