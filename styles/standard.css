@@ -72,3 +72,7 @@ footer p {
     line-height: 1;
     letter-spacing: -.05rem;
 }
+
+.btn-margin {
+    margin-bottom: 1rem;
+}
