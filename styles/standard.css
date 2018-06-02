@@ -53,11 +53,56 @@ footer p {
     max-width: 90%;
 }
 
+.bot-margin {
+    margin-bottom: 2rem;
+}
+
 /* Album
 ------------------------- */
 
 .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
 
+
+/* Album Navigation Card
+------------------------- */
+
+.nav-card {
+    height: 350px;
+    width: 100%;
+    display: block;
+}
+
+.hover-container {
+    
+}
+
+.img-hover-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    height: 350px;
+    width: 100%;
+    
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(88, 88, 88);
+}
+
+.hover-container:hover .img-hover-overlay {
+    opacity: .8;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
 
 /* Featurettes
 ------------------------- */
