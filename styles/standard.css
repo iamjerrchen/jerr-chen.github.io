@@ -12,6 +12,7 @@ footer p {
 /* Modifications deviating from bootstrap templates reside here */
 .cover-bg {
     background-image: url("./../images/galaxy_cover.jpg");
+    /* background: linear-gradient(45deg, #ff0000, #ff8800, #ffff00, #05a005, #0000ff, #ff00ff);     */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
