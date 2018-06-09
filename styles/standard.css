@@ -50,6 +50,10 @@ footer p {
     max-width: 90%;
 }
 
+.container > .featurette-heading {
+    font-weight: 400;
+}
+
 /* Album
 ------------------------- */
 
@@ -60,7 +64,7 @@ footer p {
 ------------------------- */
 
 .border {
-    border: 3px solid #dee2e6 !important;
+    border: 1.5px solid #dee2e6 !important;
 }
 
 .rounded {
